@@ -29,12 +29,12 @@
 
     <body>
 
-        <div title="Barre de navigation" class="bg-dark">
+        <div title="Barre de navigation" class="bg-primary">
             <div class="container">
                 <div class="row">
                     <header class="col">
                         <nav class="navbar navbar-expand-md navbar-dark">
-                            <a href="index.html" class="navbar-brand"> <img class="logo" src="img/logomod.png" alt="logo entreprise"/> FREE.Study</a>
+                            <a href="index.html" class="navbar-brand "> <img class="logo" src="img/logomod.png" alt="logo entreprise"/> FREE.Study</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -63,16 +63,28 @@
         <div title="Contenu de la page" class="container">
 
             <div title="banner" class="container-fluid">
-                <main class="jumbotron">
-                     <h1 class="text-center text-black-50">Bienvenue sur FREE.Study <em>les LOOSER !</em></h1>  
-                </main>
+
+                <div class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                       <div class="carousel-item active">
+                          <img src="img/apprenant0.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                          <img src="img/apprenant1.jpg" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item">
+                        <img src="img/apprenant2.jpg" class="d-block w-100" alt="...">
+                     </div>
+                    </div>
+                 </div>
+
             </div>
 
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="card">
+                        <img class="card-img-top" src="img/icon1.png" alt="icon diplome" />
                         <div class="card-body">
-                            <img class="card-img-top" src="img/icon1.png" alt="icon diplome" />
                             <h5 class="card-title text-center"> Parcours diplômant </h5>
                             <p class="card-text text-justify">De looser à héros, obtenez un diplôme en informatique.</p>
                         </div>
@@ -81,8 +93,8 @@
 
                 <div class="col-12 col-md-4 col-lg-4">                    
                     <div class="card">
+                        <img class="card-img-top img--modifier" src="img/icon2.png" alt="icon diplome" />
                         <div class="card-body">
-                            <img class="card-img-top" src="img/icon2.png" alt="icon diplome" />
                             <h5 class="card-title text-center"> Formateurs de qualités </h5>
                             <p class="card-text text-justify">Tous nos cours sont réalisés par les meilleurs informaticiens.</p>
                         </div>
@@ -91,8 +103,8 @@
 
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="card">
+                        <img class="card-img-top" src="img/icon3.png" alt="icon diplome" />
                         <div class="card-body">
-                            <img class="card-img-top" src="img/icon3.png" alt="icon diplome" />
                             <h5 class="card-title text-center"> Un travail graranti </h5>
                             <p class="card-text text-justify">Nous vous garantissons un emploi à l'issue de votre formation.</p>
                         </div>
@@ -102,7 +114,7 @@
 
         </div>
 
-        <footer title="footer" class="container-fluid bg-light">
+        <footer title="footer" class="bg-light">
             <div class="row">
                 <div class="col">
                     <ul class="list-inline text-center font-weight-bold font-italic">

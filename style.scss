@@ -68,6 +68,14 @@ table {
 a {
 
 	color: inherit;
+	text-decoration: inherit;
+
+	&:hover {
+
+		color: inherit;
+		text-decoration: inherit;
+
+	}
 
 }
 
@@ -78,6 +86,10 @@ body {
 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Prompt', sans-serif;
+
+	overflow-x: hidden;
+	margin: 0;
+	box-sizing: border-box;
 
 }
 
@@ -106,6 +118,12 @@ body {
 }
 */
 
+.container-fluid {
+
+	padding: 0;
+	margin-bottom: 1em;
+
+}
 
 // LOGO NAV 
 .logo {
@@ -118,5 +136,57 @@ body {
 
 
 	filter: drop-shadow(0 0 .1rem white);
+
+}
+
+.card {
+
+	margin-bottom: 30px;
+
+}
+
+footer {
+
+	margin-top: 1em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+
+	& ul {
+
+		margin-bottom: 0;
+		padding: 1em 0;
+
+	}
+}
+
+.description {
+
+	margin-top: 2em;
+
+}
+
+.container {
+
+	padding: 0;
+
+}
+
+.container-fluid {
+
+	padding: 0;
+
+}
+
+.jumbo-title {
+
+	margin-top: 1em;
+
+}
+
+.p--modifier {
+
+	margin-top: 1em;
+	text-decoration: underline;
+	font-size: 1.2em;
 
 }

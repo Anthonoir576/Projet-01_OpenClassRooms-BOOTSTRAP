@@ -29,7 +29,7 @@
 
     <body>
 
-        <div title="Barre de navigation" class="bg-dark">
+        <div title="Barre de navigation" class="bg-primary">
             <div class="container">
                 <div class="row">
                     <header class="col">
@@ -41,7 +41,7 @@
                             <div id="navbarContent" class="collapse navbar-collapse">
                                 <ul class="navbar-nav">
                                     <li class="nav-item "><a href="index.html" class="nav-link">Accueil</a></li>
-                                    <li class="nav-item active"><a href="cours.html" class="nav-link">Cours</a></li>
+                                    <li class="nav-item "><a href="cours.html" class="nav-link">Cours</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -62,15 +62,15 @@
         
         <div title="Contenu de la page" class="container">
 
-            <div title="banner" class="container-fluid">
-                <main class="jumbotron bg-info">
+            <div title="banner" class="container-fluid jumbo-title">
+                <main class="jumbotron bg-primary">
                      <h1 class="text-center text-white">Animation CSS pour <em>les LOOSER !</em></h1>  
                 </main>
             </div>
 
             <div title="prérequis" class="row">
-                <div class="col bg-info text-white">
-                    <p> Prérequis :</p> <br />
+                <div class="col bg-primary text-white">
+                    <p class="p--modifier"> Prérequis :</p> <br />
                     <p>Pour ce cours il faut avoir suivi le cours : <a href="#">Apprenez CSS</a></p>
                 </div>
             </div>
@@ -83,12 +83,31 @@
 
             <br />
 
-            <div title="vidéo" class="row">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=bsJSdVsRy04" allowfullscreen></iframe>
+            <div title="video" class="row">
+                <div class="col">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/lOox4UJVFb4"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen>
+                    </iframe>
+                  </div>
                 </div>
-            </div>    
+            </div>  
         
+            <div title="description video" class="row description">
+                <div class="col">
+                    <h3 class="bg-primary text-white">À la fin de ce cours, vous serez capable de :</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. vitae saepe </li>
+                        <li> Expedita error incidunt ea accusantium iste deleniti sapiente fugit ipsa</li>
+                        <li>placeat alias a delectus, exercitationem corrupti maxime nostrum, dolor quos?</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
 

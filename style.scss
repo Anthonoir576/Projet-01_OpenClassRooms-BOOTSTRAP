@@ -155,6 +155,14 @@ body {
 
 }
 
+.card-title {
+
+	border-radius: 10px;
+	padding: 5px 0;
+	font-weight: 300;
+
+}
+
 footer {
 
 	margin-top: 1em;
@@ -172,6 +180,18 @@ footer {
 .description {
 
 	margin-top: 2em;
+	
+	& .col {
+
+		& h3 {
+
+			padding: 10px 0 10px 10px;
+			border-radius: 5px;
+			margin-bottom: 15px;
+
+		}
+
+	}
 
 }
 

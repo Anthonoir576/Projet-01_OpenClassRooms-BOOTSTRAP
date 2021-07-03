@@ -79,6 +79,10 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  margin: 0;
+}
+
 /*
 // BANNER
 .banner {

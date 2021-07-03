@@ -75,12 +75,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Prompt", sans-serif;
   overflow-x: hidden;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  margin: 0;
 }
 
 /*
@@ -144,6 +138,7 @@ footer ul {
 
 .container-fluid {
   padding: 0;
+  margin-bottom: 0;
 }
 
 .jumbo-title {

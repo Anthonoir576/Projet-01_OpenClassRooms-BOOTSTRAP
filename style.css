@@ -62,9 +62,34 @@ table {
 
     }
 */
+a {
+  color: inherit;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Prompt", sans-serif;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-card {
+  border: 1px solid #00a2ff;
+}
+.info-card img {
+  align-self: center;
+  max-width: 100%;
+}
+
+.logo {
+  width: 20px;
+  height: auto;
+  position: relative;
+  top: -5px;
+  filter: drop-shadow(0 0 0.1rem white);
 }
 
 /*# sourceMappingURL=style.css.map */

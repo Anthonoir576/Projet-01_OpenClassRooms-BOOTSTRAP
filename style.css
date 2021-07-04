@@ -148,6 +148,9 @@ footer ul {
   border-radius: 5px;
   margin-bottom: 15px;
 }
+.description .col ul {
+  margin-bottom: 5em;
+}
 
 .container {
   padding: 0;

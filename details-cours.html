@@ -28,7 +28,7 @@
     </head>
 
     <body>
-
+        <!-- NAVIGATION -->
         <div title="Barre de navigation" class="bg-primary">
             <div class="container">
                 <div class="row">
@@ -49,25 +49,18 @@
                 </div>
             </div>
         </div>
-
-        <!--<div title="banner" class="container-fluid">
- 
-            <div class="row">
-                <main class="col">
-                    <img class="banner" src="img/picture01.jpg" alt="banner picture" />
-                </main>
-            </div>
-
-        </div>-->
         
+        <!-- ELEMENT PRINCIPAL DE LA PAGE -->
         <div title="Contenu de la page" class="container">
 
+            <!-- BANNER -->
             <div title="banner" class="container-fluid jumbo-title">
                 <main class="jumbotron bg-primary">
                      <h1 class="text-center text-white">Animation CSS pour <em>les LOOSER !</em></h1>  
                 </main>
             </div>
-          
+            
+            <!-- ALERT -->
             <div class="alert alert-success alert-dismissible fade show bg-light text-primary border-primary col-12" role="alert">
                 <h5 class="alert-heading">             
                     <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="svg--modifier bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
@@ -82,12 +75,14 @@
 
             <br />
 
+            <!-- TITLE VIDEO -->
             <div title="titre" class="row">
                 <div class="col"> <h2> Créez des animations CSS</h2></div>
             </div>
 
             <br />
 
+            <!-- LA vidéo -->
             <div title="video" class="row">
                 <div class="col">
                   <div class="embed-responsive embed-responsive-16by9">
@@ -101,7 +96,8 @@
                   </div>
                 </div>
             </div>  
-        
+            
+            <!-- Descriptif vidéo -->
             <div title="description video" class="row description">
                 <div class="col">
                     <h3 class="bg-primary text-white">À la fin de ce cours, vous serez capable de :</h3>
@@ -113,9 +109,35 @@
                 </div>
             </div>
 
+            <!-- FORMULAIRE et TITLE -->
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-center mb-5">Un petit commentaire ?</h3>
+                </div>
+            </div>
+            <form action="" method="POST" class="col-12">
+                
+                <div class="form-group">
+                    <label for="timeInput"> Temps :</label>
+                    <input type="text" class="form-control" placeholder="mm:ss" id="Heure" required />
+                </div>
+                <div class="form-group">
+                    <label for="note">Note :</label>
+                    <textarea id="note" rows="5" class="form-control" required placeholder="Vos commentaires ici"></textarea>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="publicCheck" />
+                        <label for="gridCheck" class="form-check-label">Rendre ce commentaire publique</label>
+                    </div>
+                </div>
+                <button class="btn btn-primary col-mb-12 col-lg-3" type="submit"> Envoyer </button>
+
+            </form>
+
         </div>
 
-
+        <!-- FOOTER -->
         <footer title="footer" class="container-fluid bg-light">
             <div class="row">
                 <div class="col">
@@ -129,6 +151,8 @@
                 </div>
             </div>
         </footer>
+
+        <!-- SCRIPT -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

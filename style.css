@@ -162,15 +162,15 @@ footer ul {
   margin-top: 1em;
 }
 
-.p--modifier {
-  margin-top: 1em;
-  text-decoration: underline;
-  font-size: 1.2em;
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 21px;
   height: 28px;
+}
+
+.svg--modifier {
+  position: relative;
+  bottom: 2px;
+  margin-right: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

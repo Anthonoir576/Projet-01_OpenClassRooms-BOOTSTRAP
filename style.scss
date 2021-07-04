@@ -1,69 +1,3 @@
-// RESET CSS 
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-
-}
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-
-	display: block;
-
-}
-
-body {
-
-	line-height: 1;
-
-}
-
-ol, ul {
-
-	list-style: none;
-
-}
-
-blockquote, q {
-
-	quotes: none;
-
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-
-	content: '';
-	content: none;
-
-}
-
-table {
-    
-    border-collapse: collapse;
-    border-spacing: 0;
-
-    }
-*/
-
 
 a {
 
@@ -79,8 +13,6 @@ a {
 
 }
 
-// ######################### END RESET CSS #############################
-
 // FONT
 body {
 
@@ -89,39 +21,6 @@ body {
 
 	overflow-x: hidden;
 
-
-}
-
-
-/*
-// BANNER
-.banner {
-
-	
-	max-width: 100%;
-	height: auto;
-
-}
-
-// CARD
-.info-card {
-
-	border: 1px solid rgb(0, 162, 255);
-
-	& img {
-
-		align-self: center;
-		max-width: 100%;
-
-	}
-
-}
-*/
-
-.container-fluid {
-
-	padding: 0;
-	margin-bottom: 1em;
 
 }
 
@@ -139,6 +38,7 @@ body {
 
 }
 
+// CARD
 .card {
 
 	margin-bottom: 30px;
@@ -163,70 +63,7 @@ body {
 
 }
 
-footer {
-
-	margin-top: 1em;
-	margin-bottom: 0;
-	padding-bottom: 0;
-
-	& ul {
-
-		margin-bottom: 0;
-		padding: 1em 0;
-
-	}
-}
-
-.description {
-
-	margin-top: 2em;
-	
-	& .col {
-
-		& h3 {
-
-			padding: 10px 0 10px 10px;
-			border-radius: 5px;
-			margin-bottom: 15px;
-
-		}
-
-		& ul {
-
-			margin-bottom: 5em;
-
-		}
-
-	}
-
-}
-
-.container {
-
-	padding: 0;
-
-}
-
-.container-fluid {
-
-	padding: 0;
-	margin-bottom: 0;
-
-}
-
-.jumbo-title {
-
-	margin-top: 1em;
-
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-
-	width: 21px;
-	height: 28px;
-
-}
-
+// SVG DETAILS COURS
 .svg--modifier {
 
 	position: relative;
